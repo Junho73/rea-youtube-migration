@@ -1,0 +1,18 @@
+:root { color-scheme: light dark; font-family: system-ui, "Apple SD Gothic Neo", sans-serif; }
+body { margin: 0; background: Canvas; color: CanvasText; }
+main { max-width: 860px; margin: 0 auto; padding: 0 16px 40px; }
+header { position: sticky; top: 0; display: flex; gap: 16px; align-items: center; padding: 12px 0; background: Canvas; z-index: 1; }
+.search { flex: 1; display: flex; }
+.search input { flex: 1; padding: 8px 12px; border: 1px solid #8886; border-radius: 20px 0 0 20px; font-size: 15px; }
+.search button { padding: 8px 16px; border: 1px solid #8886; border-left: 0; border-radius: 0 20px 20px 0; cursor: pointer; }
+.results { display: flex; flex-direction: column; gap: 16px; }
+.video { display: flex; gap: 16px; }
+.thumb { position: relative; flex: 0 0 240px; aspect-ratio: 16 / 9; border-radius: 12px; }
+.length { position: absolute; right: 6px; bottom: 6px; padding: 1px 4px; border-radius: 4px; background: #000c; color: #fff; font-size: 12px; }
+.meta h3 { margin: 0 0 6px; font-size: 16px; }
+.meta p { margin: 0; font-size: 13px; opacity: .7; }
+.shelf h2 { font-size: 18px; margin: 8px 0; }
+.shelf-row { display: flex; gap: 8px; overflow-x: auto; }
+.short { flex: 0 0 140px; aspect-ratio: 9 / 16; border-radius: 12px; display: flex; align-items: flex-end; padding: 8px; box-sizing: border-box; color: #fff; font-size: 13px; }
+.sentinel, .empty { text-align: center; padding: 24px; opacity: .7; }
+@media (max-width: 560px) { .video { flex-direction: column; } .thumb { flex-basis: auto; } }

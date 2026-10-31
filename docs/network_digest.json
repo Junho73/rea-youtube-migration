@@ -1,0 +1,714 @@
+{
+ "evidence_id": "ev_4efacff34e0b20be89a0507c7bd59d820c4522dfa2a526ab9b57eeaec0dc6388",
+ "total": 152,
+ "redactions": 0,
+ "initial_data_pages": [
+  {
+   "path": "/",
+   "top_renderers": [
+    [
+     "hotkeyDialogSectionOptionRenderer",
+     26
+    ],
+    [
+     "buttonRenderer",
+     8
+    ],
+    [
+     "hotkeyDialogSectionRenderer",
+     4
+    ],
+    [
+     "buttonViewModel",
+     2
+    ],
+    [
+     "twoColumnBrowseResultsRenderer",
+     1
+    ],
+    [
+     "tabRenderer",
+     1
+    ],
+    [
+     "richGridRenderer",
+     1
+    ],
+    [
+     "richSectionRenderer",
+     1
+    ],
+    [
+     "feedNudgeRenderer",
+     1
+    ],
+    [
+     "feedTabbedHeaderRenderer",
+     1
+    ],
+    [
+     "desktopTopbarRenderer",
+     1
+    ],
+    [
+     "topbarLogoRenderer",
+     1
+    ]
+   ]
+  },
+  {
+   "path": "/?themeRefresh=1",
+   "top_renderers": [
+    [
+     "hotkeyDialogSectionOptionRenderer",
+     26
+    ],
+    [
+     "buttonRenderer",
+     8
+    ],
+    [
+     "hotkeyDialogSectionRenderer",
+     4
+    ],
+    [
+     "buttonViewModel",
+     2
+    ],
+    [
+     "twoColumnBrowseResultsRenderer",
+     1
+    ],
+    [
+     "tabRenderer",
+     1
+    ],
+    [
+     "richGridRenderer",
+     1
+    ],
+    [
+     "richSectionRenderer",
+     1
+    ],
+    [
+     "feedNudgeRenderer",
+     1
+    ],
+    [
+     "feedTabbedHeaderRenderer",
+     1
+    ],
+    [
+     "desktopTopbarRenderer",
+     1
+    ],
+    [
+     "topbarLogoRenderer",
+     1
+    ]
+   ]
+  }
+ ],
+ "hosts": [
+  [
+   "www.youtube.com",
+   106
+  ],
+  [
+   "suggestqueries-clients6.youtube.com",
+   22
+  ],
+  [
+   "rr5---sn-q4fl6ns6.googlevideo.com",
+   8
+  ],
+  [
+   "googleads.g.doubleclick.net",
+   4
+  ],
+  [
+   "youtube.com",
+   3
+  ],
+  [
+   "i.ytimg.com",
+   2
+  ],
+  [
+   "www.gstatic.com",
+   2
+  ],
+  [
+   "accounts.google.com",
+   1
+  ],
+  [
+   "www.google.com",
+   1
+  ],
+  [
+   "static.doubleclick.net",
+   1
+  ],
+  [
+   "rr2---sn-ab02a0nfpgxapox-bh26r.googlevideo.com",
+   1
+  ],
+  [
+   "rr2---sn-ab02a0nfpgxapox-bh2sk.googlevideo.com",
+   1
+  ]
+ ],
+ "resource_types": [
+  [
+   "fetch",
+   66
+  ],
+  [
+   "xhr",
+   32
+  ],
+  [
+   "script",
+   29
+  ],
+  [
+   "preflight",
+   11
+  ],
+  [
+   "image",
+   6
+  ],
+  [
+   "document",
+   5
+  ],
+  [
+   "other",
+   3
+  ]
+ ],
+ "youtubei": {
+  "guide": {
+   "calls": 1,
+   "request_keys": [
+    "context",
+    "fetchLiveState"
+   ],
+   "context_client_keys": [
+    "acceptHeader",
+    "applicationState",
+    "browserName",
+    "browserVersion",
+    "clientFormFactor",
+    "clientName",
+    "clientVersion",
+    "configInfo",
+    "deviceExperimentId",
+    "deviceMake",
+    "deviceModel",
+    "gl",
+    "hl",
+    "mainAppWebInfo",
+    "memoryTotalKbytes",
+    "originalUrl",
+    "osName",
+    "osVersion",
+    "platform",
+    "remoteHost",
+    "rolloutToken",
+    "screenDensityFloat",
+    "screenHeightPoints",
+    "screenPixelDensity",
+    "screenWidthPoints"
+   ],
+   "response_keys": [
+    "items",
+    "responseContext",
+    "trackingParams"
+   ],
+   "renderers": [
+    [
+     "guideEntryRenderer",
+     18
+    ],
+    [
+     "guideSectionRenderer",
+     4
+    ],
+    [
+     "reelPlayerOverlayRenderer",
+     1
+    ],
+    [
+     "guideSigninPromoRenderer",
+     1
+    ],
+    [
+     "buttonRenderer",
+     1
+    ],
+    [
+     "guideCollapsibleEntryRenderer",
+     1
+    ]
+   ]
+  },
+  "feedback": {
+   "calls": 1,
+   "request_keys": [
+    "context",
+    "feedbackTokens",
+    "isFeedbackTokenUnencrypted",
+    "shouldMerge"
+   ],
+   "context_client_keys": [
+    "acceptHeader",
+    "applicationState",
+    "browserName",
+    "browserVersion",
+    "clientFormFactor",
+    "clientName",
+    "clientVersion",
+    "configInfo",
+    "connectionType",
+    "deviceExperimentId",
+    "deviceMake",
+    "deviceModel",
+    "gl",
+    "hl",
+    "mainAppWebInfo",
+    "memoryTotalKbytes",
+    "originalUrl",
+    "osName",
+    "osVersion",
+    "platform",
+    "remoteHost",
+    "rolloutToken",
+    "screenDensityFloat",
+    "screenHeightPoints",
+    "screenPixelDensity"
+   ],
+   "response_keys": [
+    "feedbackResponses",
+    "responseContext"
+   ],
+   "renderers": []
+  },
+  "log_event": {
+   "calls": 8,
+   "request_keys": [
+    "context",
+    "events",
+    "serializedClientEventId"
+   ],
+   "context_client_keys": [
+    "browserName",
+    "browserVersion",
+    "clientName",
+    "clientVersion",
+    "configInfo",
+    "connectionType",
+    "deviceMake",
+    "gl",
+    "hl",
+    "mainAppWebInfo",
+    "memoryTotalKbytes",
+    "osName",
+    "osVersion",
+    "platform",
+    "screenDensityFloat",
+    "userAgent",
+    "windowHeightPoints",
+    "windowWidthPoints"
+   ],
+   "response_keys": [
+    "responseContext"
+   ],
+   "renderers": []
+  },
+  "notification_registration/set_registration": {
+   "calls": 1,
+   "request_keys": [
+    "context",
+    "notificationRegistration"
+   ],
+   "context_client_keys": [
+    "clientName",
+    "clientVersion",
+    "gl",
+    "hl",
+    "utcOffsetMinutes"
+   ],
+   "response_keys": [
+    "responseContext"
+   ],
+   "renderers": []
+  },
+  "search": {
+   "calls": 3,
+   "request_keys": [
+    "context",
+    "continuation"
+   ],
+   "context_client_keys": [
+    "acceptHeader",
+    "applicationState",
+    "browserName",
+    "browserVersion",
+    "clientFormFactor",
+    "clientName",
+    "clientVersion",
+    "configInfo",
+    "connectionType",
+    "deviceExperimentId",
+    "deviceMake",
+    "deviceModel",
+    "gl",
+    "hl",
+    "mainAppWebInfo",
+    "memoryTotalKbytes",
+    "originalUrl",
+    "osName",
+    "osVersion",
+    "platform",
+    "remoteHost",
+    "rolloutToken",
+    "screenDensityFloat",
+    "screenHeightPoints",
+    "screenPixelDensity"
+   ],
+   "response_keys": [
+    "estimatedResults",
+    "frameworkUpdates",
+    "header",
+    "isSafeSearchTriggered",
+    "onResponseReceivedCommands",
+    "responseContext",
+    "topbar",
+    "trackingParams"
+   ],
+   "renderers": [
+    [
+     "buttonViewModel",
+     312
+    ],
+    [
+     "toggleButtonViewModel",
+     160
+    ],
+    [
+     "thumbnailViewModel",
+     151
+    ],
+    [
+     "listItemViewModel",
+     150
+    ],
+    [
+     "defaultButtonViewModel",
+     128
+    ],
+    [
+     "toggledButtonViewModel",
+     128
+    ],
+    [
+     "menuServiceItemRenderer",
+     114
+    ],
+    [
+     "thumbnailOverlayToggleButtonRenderer",
+     114
+    ],
+    [
+     "hotkeyDialogSectionOptionRenderer",
+     78
+    ],
+    [
+     "shortsLockupViewModel",
+     75
+    ],
+    [
+     "reelPlayerOverlayRenderer",
+     75
+    ],
+    [
+     "sheetViewModel",
+     75
+    ]
+   ],
+   "per_call": [
+    {
+     "ordinal": 94,
+     "request_keys": [
+      "context",
+      "inlineSettingStatus",
+      "query",
+      "webSearchboxStatsUrl"
+     ],
+     "has_query": true,
+     "has_continuation": false,
+     "response_top": [
+      "contents",
+      "estimatedResults",
+      "frameworkUpdates",
+      "header",
+      "onResponseReceivedCommands",
+      "responseContext",
+      "targetId",
+      "topbar",
+      "trackingParams"
+     ],
+     "contents_root": [
+      "twoColumnSearchResultsRenderer"
+     ],
+     "continuation_items": []
+    },
+    {
+     "ordinal": 119,
+     "request_keys": [
+      "context",
+      "continuation"
+     ],
+     "has_query": false,
+     "has_continuation": true,
+     "response_top": [
+      "estimatedResults",
+      "frameworkUpdates",
+      "header",
+      "isSafeSearchTriggered",
+      "onResponseReceivedCommands",
+      "responseContext",
+      "topbar",
+      "trackingParams"
+     ],
+     "contents_root": [],
+     "continuation_items": [
+      "itemSectionRenderer",
+      "continuationItemRenderer"
+     ]
+    },
+    {
+     "ordinal": 131,
+     "request_keys": [
+      "context",
+      "continuation"
+     ],
+     "has_query": false,
+     "has_continuation": true,
+     "response_top": [
+      "estimatedResults",
+      "frameworkUpdates",
+      "header",
+      "isSafeSearchTriggered",
+      "onResponseReceivedCommands",
+      "responseContext",
+      "topbar",
+      "trackingParams"
+     ],
+     "contents_root": [],
+     "continuation_items": [
+      "itemSectionRenderer",
+      "continuationItemRenderer"
+     ]
+    }
+   ]
+  },
+  "player": {
+   "calls": 10,
+   "request_keys": [
+    "contentCheckOk",
+    "context",
+    "params",
+    "playbackContext",
+    "racyCheckOk",
+    "serviceIntegrityDimensions",
+    "videoId"
+   ],
+   "context_client_keys": [
+    "acceptHeader",
+    "applicationState",
+    "browserName",
+    "browserVersion",
+    "clientFormFactor",
+    "clientName",
+    "clientScreen",
+    "clientVersion",
+    "configInfo",
+    "deviceExperimentId",
+    "deviceMake",
+    "deviceModel",
+    "gl",
+    "hl",
+    "mainAppWebInfo",
+    "memoryTotalKbytes",
+    "originalUrl",
+    "osName",
+    "osVersion",
+    "platform",
+    "remoteHost",
+    "rolloutToken",
+    "screenDensityFloat",
+    "screenHeightPoints",
+    "screenPixelDensity"
+   ],
+   "response_keys": [
+    "adBreakHeartbeatParams",
+    "captions",
+    "frameworkUpdates",
+    "microformat",
+    "playabilityStatus",
+    "playbackTracking",
+    "playerConfig",
+    "responseContext",
+    "storyboards",
+    "streamingData",
+    "trackingParams",
+    "videoDetails"
+   ],
+   "renderers": [
+    [
+     "miniplayerRenderer",
+     10
+    ],
+    [
+     "playerStoryboardSpecRenderer",
+     10
+    ],
+    [
+     "playerMicroformatRenderer",
+     10
+    ],
+    [
+     "playerCaptionsTracklistRenderer",
+     8
+    ]
+   ]
+  }
+ },
+ "renderers": [
+  [
+   "buttonViewModel",
+   316
+  ],
+  [
+   "toggleButtonViewModel",
+   160
+  ],
+  [
+   "thumbnailViewModel",
+   151
+  ],
+  [
+   "listItemViewModel",
+   150
+  ],
+  [
+   "hotkeyDialogSectionOptionRenderer",
+   130
+  ],
+  [
+   "defaultButtonViewModel",
+   128
+  ],
+  [
+   "toggledButtonViewModel",
+   128
+  ],
+  [
+   "menuServiceItemRenderer",
+   114
+  ],
+  [
+   "thumbnailOverlayToggleButtonRenderer",
+   114
+  ],
+  [
+   "buttonRenderer",
+   87
+  ],
+  [
+   "reelPlayerOverlayRenderer",
+   76
+  ],
+  [
+   "shortsLockupViewModel",
+   75
+  ],
+  [
+   "sheetViewModel",
+   75
+  ],
+  [
+   "listViewModel",
+   75
+  ],
+  [
+   "searchFilterRenderer",
+   75
+  ],
+  [
+   "videoRenderer",
+   57
+  ],
+  [
+   "menuRenderer",
+   57
+  ],
+  [
+   "menuNavigationItemRenderer",
+   57
+  ],
+  [
+   "menuServiceItemDownloadRenderer",
+   57
+  ],
+  [
+   "unifiedSharePanelRenderer",
+   57
+  ],
+  [
+   "channelThumbnailWithLinkRenderer",
+   57
+  ],
+  [
+   "thumbnailOverlayTimeStatusRenderer",
+   57
+  ],
+  [
+   "thumbnailOverlayNowPlayingRenderer",
+   57
+  ],
+  [
+   "thumbnailOverlayLoadingPreviewRenderer",
+   57
+  ],
+  [
+   "movingThumbnailRenderer",
+   57
+  ],
+  [
+   "decoratedAvatarViewModel",
+   57
+  ],
+  [
+   "avatarViewModel",
+   57
+  ],
+  [
+   "metadataBadgeRenderer",
+   54
+  ],
+  [
+   "badgeViewModel",
+   48
+  ],
+  [
+   "likeButtonViewModel",
+   32
+  ]
+ ]
+}
